@@ -10,11 +10,11 @@ Esse projeto utiliza o framework Python, FastAPI, SQLAlchemy, Uvicorn, Psycopg2,
 - **requirements:** Contém os pacotes instalados dentro da virtual env;
 - **README.md:** Este arquivo.
 
-## Estrutura do Projeto
+## Execução do projeto
 
 Para inicializar o projeto temos os seguintes passos:
 
-- **Criação do banco de dados localmente:** docker run --name my_container -p 5434:5432 -e POSTGRES_USER=my_user -e POSTGRES_PASSWORD=my_user2023 -e POSTGRES_DB=my_db -d postgres:16.0
+- **Criação do banco de dados localmente:** docker run --name my_container -p 5434:5432 -e POSTGRES_USER=my_user -e POSTGRES_PASSWORD=my_user2023 -e POSTGRES_DB=my_db -d postgres:16.0 (Lembre-se de instalar o docker em sua máquina)
 
 - **Criação do ambiente virtual:** 
 
